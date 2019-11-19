@@ -42,14 +42,14 @@ def main():
         print("  2.Calculate the change when you buy two items.")
         print("  3.Calculate the area of a circle.")
         print("  4.Enter 4 to quit.")
-        userChoice=float(input("Enter your choice: "))
-        if userChoice==1:
+        userChoice=input("Enter your choice: "))
+        if userChoice=="1":
             total()
-        elif userChoice==2:
+        elif userChoice=="2":
             purchase()
-        elif userChoice==3:
+        elif userChoice=="3":
             area()
-        elif userChoice==4:
+        elif userChoice=="4":
             continueProgram=False
             print("   Thank you for using! See you!")
         else:
